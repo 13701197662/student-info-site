@@ -1,0 +1,8 @@
+index.html filter=lfs diff=lfs merge=lfs -text
+script.js filter=lfs diff=lfs merge=lfs -text
+styles.css filter=lfs diff=lfs merge=lfs -text
+操作指南.txt filter=lfs diff=lfs merge=lfs -text
+1.py filter=lfs diff=lfs merge=lfs -text
+data filter=lfs diff=lfs merge=lfs -text
+icon filter=lfs diff=lfs merge=lfs -text
+images filter=lfs diff=lfs merge=lfs -text
