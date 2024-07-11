@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生信息展示</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+    <!-- 添加标题栏 -->
+    <div class="header">
+        <img src="icon/logo.png" alt="Logo" class="header-logo">
+        <span class="header-title">学生树</span>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="image-container">
+                <img id="student-image" src="" alt="学生照片">
+            </div>
+        </div>
+        <div class="right">
+            <div class="id-filter-container">
+                <input type="text" id="id-filter" placeholder="输入学号筛选" oninput="filterStudentIds()">
+                <button id="dropdown-button">▼</button>
+                <button id="filter-button">筛选</button>
+                <div id="dropdown-menu" class="dropdown-menu"></div>
+            </div>
+            <div id="student-info">
+                <div id="student-name">姓名: </div>
+                <div id="student-id">学号: </div>
+                <div id="student-college">学院: </div>
+                <div id="student-major">专业: </div>
+                <div id="student-grade">年级: </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
